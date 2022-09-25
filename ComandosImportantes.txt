@@ -1,0 +1,17 @@
+*** COMANDOS PRINCIPALES DE LARAVEL ***
+
+
+1. composer create-project laravel/laravel [nombre]     CREAR PROYECTO NUEVO
+2. composer require laravel/sanctum 			PAQUETE DE AUTENTICACION
+3. php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"  PUBLICAR SANCTUM
+4. php artisan migrate					EJECUTAR MIGRACIONES5 
+5. php artisan make:model Product -mcr			CREAR MODELO CONTROLADOR Y RESOURCES
+6. php artisan make:controller AuthController		CREAR CONTROLADOR
+7. php artisan make:seeder ProductSeeder		CREAR UN SEEDER O LLENADO DE DATOS
+8. php artisan db:seed					CREAR LOS SEED O DATOS
+9. php artisan serve					LEVANTAR EL SEVIDOR
+10. php artisan make:migration add_active_column_to_products_table --table=products  CREAR UNA MIGRACION PARA PODER EDITAR NUESTRA TABLA SI ES QUE QUEREMOS AGREGAR NUEVOS CAMPOS
+
+
+
+https://styde.net/aprende-como-validar-datos-con-laravel/   LINK DE AUTENTICACIN
